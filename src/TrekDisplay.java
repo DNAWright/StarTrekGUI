@@ -96,7 +96,7 @@ public class TrekDisplay extends JFrame
         getContentPane().add(consPanel, BorderLayout.NORTH);
         transportButton.addActionListener(new transCrew());
         retrieveButton.addActionListener(new retCrew());
-        destinationText.setText("Enter target destination or coordinates here.");
+        destinationText.setText("Enter target destination and hit enter...");
         destinationText.addActionListener(new getDestination());
         statusText.setText("The Crew is ready for departure.");
         statusText.setEditable(false);
